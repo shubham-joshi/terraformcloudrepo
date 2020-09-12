@@ -5,7 +5,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "cvwebsite" {
-    bucket = "cv.shubhamjoshi.co.in"
+    bucket = "mycv.shubhamjoshi.co.in"
     acl = "public-read"
 
     website {
